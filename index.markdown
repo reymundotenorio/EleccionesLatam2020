@@ -10,6 +10,6 @@ layout: home
 {% for group in groups %}
     {{ group.name }}
     {% for item in group.items %}
-        {{item.abbrev}}
+        {{item.pais}}
     {%endfor%}
 {%endfor%}
