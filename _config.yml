@@ -22,10 +22,12 @@ title: Elecciones Latinoamérica 2020
 description: Listado de las elecciones del año 2020 en Latinoamérica.
 baseurl: "EleccionesLatam2020" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  reymundotenorio
 author:
   name: Reymundo Tenorio
-  email: reymundotenorio@gmail.com
+  social:
+    email: reymundotenorio@gmail.com
+    github_username: reymundotenorio
+    linkedin_username: reymundotenorio
 
 # Build settings
 # theme: minima
