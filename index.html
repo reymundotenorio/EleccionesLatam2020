@@ -16,7 +16,7 @@ layout: home
         <div class="card-body">
           {% for item in group.items %}
           <h3 class="card-title">{{ item.pais }}</h3>
-          <a href="{{ site.baseurl }}/{{ item.url }}" class="btn btn-primary">Ver más</a>
+          <a href="{{ item.url | prepend: site.baseurl }}" class="btn btn-primary">Ver más</a>
 
           <hr class="w-100">
           {% endfor %}
