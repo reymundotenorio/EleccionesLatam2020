@@ -36,3 +36,4 @@ plugins:
 collections:
   elecciones:
     output: true
+     permalink: /elecciones/:path/
