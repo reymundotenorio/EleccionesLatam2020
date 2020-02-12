@@ -1,0 +1,22 @@
+---
+layout: home
+---
+
+{% assign groups = site.elecciones | group_by: "tipo" | sort: "fecha" %}
+
+{% for group in groups %}
+<div class="card">
+  <div class="card-header">
+    <h2>{{ group.name }}</h2>
+  </div>
+
+  <div class="card-body">
+    {% for item in group.items %}
+    <h3 class="card-title">{{ item.pais }}</h3>
+    <a href="{{ item.url }}" class="btn btn-primary">Ver más</a>
+
+    <hr>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
