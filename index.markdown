@@ -4,3 +4,12 @@
 
 layout: home
 ---
+
+{% assign groups = site.elecciones | group_by: "tipo" | sort: "fecha" %}
+
+{% for group in groups %}
+    {{ group.name }}
+    {% for item in group.items %}
+        {{item.abbrev}}
+    {%endfor%}
+{%endfor%}
