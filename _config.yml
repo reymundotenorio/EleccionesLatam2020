@@ -23,8 +23,8 @@ email: reymundotenorio@gmail.com
 description: Listado de las elecciones del año 2020 en Latinoamérica.
 baseurl: "EleccionesLatam2020" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: reymundotenorio
+github_username:  reymundotenorio
 
 # Build settings
 theme: minima
