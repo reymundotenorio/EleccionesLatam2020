@@ -3,19 +3,19 @@
 <ul>
   {%- if social.email -%}
   <li>
-    <a href="mailto:{{ social.email | cgi_escape | escape }}" title="{{ social.email | escape }}"><i class="fas fa-envelope"></i> {{ social.email | escape }}</a>
+    <a href="mailto:{{ social.email }}" title="{{ social.email }}"><i class="fas fa-envelope"></i> {{ social.email | escape }}</a>
   </li>
   {%- endif -%}
 
   {%- if social.github_username -%}
   <li>
-    <a href="https://github.com/{{ social.github_username | cgi_escape | escape }}" title="{{ social.github_username | escape }}"><i class="fab fa-github"></i> {{ social.github_username | escape }}</a>
+    <a href="https://github.com/{{ social.github_username | cgi_escape | escape }}" title="{{ social.github_username }}"><i class="fab fa-github"></i> {{ social.github_username }}</a>
   </li>
   {%- endif -%}
 
   {%- if social.linkedin_username -%}
   <li>
-    <a href="https://www.linkedin.com/in/{{ social.linkedin_username | cgi_escape | escape }}" title="{{ social.linkedin_username | escape }}"><i class="fab fa-linkedin-in"></i> {{ social.linkedin_username | escape }}</a>
+    <a href="https://www.linkedin.com/in/{{ social.linkedin_username | cgi_escape | escape }}" title="{{ social.linkedin_username }}"><i class="fab fa-linkedin-in"></i> {{ social.linkedin_username }}</a>
   </li>
   {%- endif -%}
 </ul>
