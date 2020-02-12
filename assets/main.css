@@ -2,19 +2,23 @@ body {
   background: #FFFFFF;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, span {
   white-space: normal;
 }
 
-.navbar.navbar-light {
-  background-color: #6200EA;
-  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.1);
+header {
+  margin-bottom: 3rem;
 }
-.navbar .navbar-brand {
+header .navbar.navbar-light {
+  background-color: #6200EA;
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.3);
+}
+header .navbar .navbar-brand {
   padding: 0.3125rem 0;
   margin: 0;
   color: #FFFFFF;
+  transition: color 0.3s ease;
 }
-.navbar .navbar-brand:hover, .navbar .navbar-brand:active, .navbar .navbar-brand:focus {
-  color: rgba(255, 255, 255, 0.5);
+header .navbar .navbar-brand:hover, header .navbar .navbar-brand:active, header .navbar .navbar-brand:focus {
+  color: rgba(255, 255, 255, 0.8);
 }
