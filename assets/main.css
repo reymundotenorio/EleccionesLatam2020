@@ -6,8 +6,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   white-space: normal;
 }
 
-.navbar.navbar-light.bg-light {
+.navbar.navbar-light {
   background-color: #6200EA;
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.1);
 }
 .navbar .navbar-brand {
   padding: 0.3125rem 0;

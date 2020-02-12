@@ -1,5 +1,6 @@
 // Variables
 $white: #FFFFFF;
+$black: #000000;
 $primary-color: #6200EA;
 
 // Base
@@ -14,9 +15,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 // Header
 .navbar{
   &.navbar-light{
-    &.bg-light{
-      background-color: $primary-color;
-    }
+    background-color: $primary-color;
+    box-shadow: 0 0 3rem 0 rgba($black, 0.1);
   }
 
   .navbar-brand{
