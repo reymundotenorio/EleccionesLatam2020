@@ -17,4 +17,4 @@ plugins:
 collections:
   elecciones:
     output: true
-    permalink: /elecciones/:path/
+    permalink: EleccionesLatam2020/elecciones/:path/
