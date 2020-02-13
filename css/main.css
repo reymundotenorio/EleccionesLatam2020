@@ -47,6 +47,10 @@ main .card .card-header {
   color: #ffffff;
 }
 
+main .card p {
+  font-size: 18px;
+}
+
 main .card .btn-primary {
   background-color: #04b4bc;
   border-color: #04b4bc;
@@ -63,6 +67,10 @@ main .card .btn-primary:hover, main .card .btn-primary:active, main .card .btn-p
   background-color: #04b4bc;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+main .img-country {
+  max-height: calc(100vh - 150px);
 }
 
 footer {

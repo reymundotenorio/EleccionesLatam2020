@@ -1,3 +1,24 @@
 ---
 layout: default
 ---
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2>{{ page.pais }}</h2>
+                </div>
+
+                <div class="card-body">
+                    <p><i class="far fa-calendar-alt"></i> <b>Fecha de elección: </b>{{ page.fecha }}</p>
+                    <p><i class="fas fa-vote-yea"></i> <b>Tipo de elección: </b>{{ page.tipo }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <img class="img-fluid img-country" src="{{ page.imagen }}" alt="{{ page.pais }}">
+        </div>
+    </div>
+</div>
