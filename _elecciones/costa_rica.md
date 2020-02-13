@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: Costa Rica
+
 tipo: Elecciones regionales y municipales
 pais: Costa Rica
 fecha: 2 de febrero 2020

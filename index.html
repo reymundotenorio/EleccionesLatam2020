@@ -1,13 +1,15 @@
 ---
-layout: home
+layout: default
 ---
 
 {% assign groups = site.elecciones | group_by: "tipo" | sort: "pais" %}
+
 <div class="container">
   <div class="row">
-    <div class="col-12">
 
-      {% for group in groups %}
+    {% for group in groups %}
+    <div class="col-12 col-md">
+
       <div class="card">
         <div class="card-header">
           <h2>{{ group.name }}</h2>
@@ -23,8 +25,8 @@ layout: home
         </div>
       </div>
       <br><br>
-      {% endfor %}
-
     </div>
+    {% endfor %}
+    
   </div>
 </div>
