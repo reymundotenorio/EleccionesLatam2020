@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: Venezuela
+
 tipo: Elecciones legislativas
 pais: Venezuela
 fecha: Diciembre 2020

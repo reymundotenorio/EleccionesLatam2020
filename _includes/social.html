@@ -9,13 +9,13 @@
 
   {%- if social.github_username -%}
   <li>
-    <a href="https://github.com/{{ social.github_username | cgi_escape | escape }}" title="{{ social.github_username }}"><i class="fab fa-github"></i> {{ social.github_username }}</a>
+    <a href="https://github.com/{{ social.github_username | cgi_escape | escape }}" target="_blank" title="{{ social.github_username }}"><i class="fab fa-github"></i> {{ social.github_username }}</a>
   </li>
   {%- endif -%}
 
   {%- if social.linkedin_username -%}
   <li>
-    <a href="https://www.linkedin.com/in/{{ social.linkedin_username | cgi_escape | escape }}" title="{{ social.linkedin_username }}"><i class="fab fa-linkedin-in"></i> {{ social.linkedin_username }}</a>
+    <a href="https://www.linkedin.com/in/{{ social.linkedin_username | cgi_escape | escape }}" target="_blank" title="{{ social.linkedin_username }}"><i class="fab fa-linkedin-in"></i> {{ social.linkedin_username }}</a>
   </li>
   {%- endif -%}
 </ul>

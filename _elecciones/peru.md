@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: Perú
+
 tipo: Elecciones legislativas
 pais: Perú
 fecha: 26 de enero 2020

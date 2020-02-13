@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: Guyana
+
 tipo: Elecciones presidenciales
 pais: Guyana
 fecha: 2 de marzo 2020

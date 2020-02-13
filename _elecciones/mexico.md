@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: México
+
 tipo: Elecciones regionales y municipales
 pais: México
 fecha: 7 de junio de 2020

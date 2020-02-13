@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: Uruguay
+
 tipo: Elecciones regionales y municipales
 pais: Uruguay
 fecha: 10 de mayo 2020

@@ -1,4 +1,7 @@
 ---
+layout: eleccion
+title: Chile
+
 tipo: Elecciones regionales y municipales
 pais: Chile
 fecha: 25 de octubre de 2020

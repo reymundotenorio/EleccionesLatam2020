@@ -2,29 +2,29 @@
 layout: default
 ---
 
-{% assign groups = site.elecciones | group_by: "tipo" | sort: "pais" %}
+{% assign grupos = site.elecciones | group_by: "tipo" | sort: "pais" %}
 
 <div class="container">
   <div class="row">
 
-    {% for group in groups %}
+    {% for grupo in grupos %}
     <div class="col-12 col-md">
-
+      
       <div class="card">
         <div class="card-header">
-          <h2>{{ group.name }}</h2>
+          <h2>{{ grupo.name }}</h2>
         </div>
 
         <div class="card-body">
-          {% for item in group.items %}
-          <h3 class="card-title">{{ item.pais }}</h3>
-          <a href="{{ item.url | prepend: site.baseurl }}" class="btn btn-primary">Ver más</a>
+          {% for eleccion in grupo.items %}
+          <h3 class="card-title">{{ eleccion.pais }}</h3>
+          <a href="{{ eleccion.url | prepend: site.baseurl }}" class="btn btn-primary">Ver más</a>
 
           <hr class="w-100">
           {% endfor %}
         </div>
       </div>
-      <br><br>
+
     </div>
     {% endfor %}
     
