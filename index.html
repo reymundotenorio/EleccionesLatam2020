@@ -18,7 +18,7 @@ layout: default
                 <div class="card-body">
                     {% for eleccion in eleccionesTipo.items %}
                     <h3 class="card-title">{{ eleccion.pais }}</h3>
-                    <a href="{{ eleccion.url }}" class="btn btn-primary">Ver más</a>
+                    <a href="{{ eleccion.url | prepend: site.repository }}" class="btn btn-primary">Ver más</a>
 
                     <hr class="w-100">
                     {% endfor %}

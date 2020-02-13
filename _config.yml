@@ -1,6 +1,7 @@
 title: Elecciones Latinoamérica 2020
 description: Listado de las elecciones del año 2020 en Latinoamérica.
 baseurl: "EleccionesLatam2020"
+repository: EleccionesLatam2020
 author:
   name: Reymundo Tenorio
   social:
@@ -17,4 +18,4 @@ plugins:
 collections:
   elecciones:
     output: true
-    permalink: EleccionesLatam2020/elecciones/:path/
+    permalink: /elecciones/:path/
