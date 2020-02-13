@@ -1,0 +1,125 @@
+body {
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  white-space: normal;
+}
+
+header .navbar.navbar-light {
+  background-color: #6200ea;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+header .navbar .navbar-brand {
+  padding: 5px 0px;
+  margin: 0px;
+  color: #ffffff;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+header .navbar .navbar-brand:hover, header .navbar .navbar-brand:active, header .navbar .navbar-brand:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+main {
+  margin: 80px 0px;
+}
+
+main .card {
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+main .card .card-header {
+  background-color: #ff483c;
+  color: #ffffff;
+}
+
+main .card p {
+  font-size: 18px;
+}
+
+main .card .btn-primary {
+  background-color: #04b4bc;
+  border-color: #04b4bc;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+main .card .btn-primary:hover, main .card .btn-primary:active, main .card .btn-primary:focus {
+  background-color: #04b4bc;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main .img-country {
+  max-height: calc(100vh - 150px);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+}
+
+footer ul li:last-child {
+  padding-bottom: 0px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover, footer ul li a:active, footer ul li a:focus {
+  color: #ff483c;
+  text-decoration: none;
+}
+
+footer ul li a svg,
+footer ul li a i {
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  footer ul li {
+    display: inline;
+    padding: 0px 15px;
+  }
+  footer ul li:first-child {
+    padding-left: 0px;
+  }
+  footer ul li:last-child {
+    padding-right: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

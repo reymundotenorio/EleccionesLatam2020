@@ -1,0 +1,148 @@
+// Variables
+$white: #ffffff;
+$black: #000000;
+$primary-color: #6200ea;
+$secondary-color: #ff483c;
+$third-color: #04b4bc;
+
+// Base
+body {
+  background: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  white-space: normal;
+}
+
+// Header
+header {
+  // margin-bottom: 50px;
+
+  .navbar {
+    &.navbar-light {
+      background-color: $primary-color;
+      box-shadow: 0px 0px 40px 0px rgba($black, 0.2);
+    }
+
+    .navbar-brand {
+      padding: 5px 0px;
+      margin: 0px;
+      color: $white;
+      transition: color 0.3s ease;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: rgba($white, 0.8);
+      }
+    }
+  }
+}
+
+// Main
+main {
+  margin: 80px 0px;
+
+  .card {
+    // border-radius: 0;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 0px rgba($black, 0.1);
+
+    .card-header {
+      background-color: $secondary-color;
+      color: $white;
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+    .btn-primary {
+      background-color: $third-color;
+      border-color: $third-color;
+      font-weight: bold;
+
+      box-shadow: 0px 0px 15px 0px rgba($black, 0.15);
+      transition: box-shadow 0.3s ease;
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $third-color;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .img-country{
+    max-height: calc(100vh - 150px);
+  }
+}
+
+// Footer
+footer {
+  background-color: rgba($black, 0.8);
+  padding: 20px 0px;
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+
+    li {
+      padding-bottom: 10px;
+
+      &:last-child {
+        padding-bottom: 0px;
+      }
+
+      a {
+        color: $white;
+        font-size: 18px;
+        transition: color 0.3s ease;
+
+        &:hover,
+        &:active,
+        &:focus {
+          color: $secondary-color;
+          text-decoration: none;
+        }
+
+        svg,
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  // Footer
+  footer {
+    ul {
+      li {
+        display: inline;
+
+        padding: 0px 15px;
+
+        &:first-child {
+          padding-left: 0px;
+        }
+
+        &:last-child {
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+}
